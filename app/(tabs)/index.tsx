@@ -8,6 +8,15 @@ import { ThemedView } from '@/components/ThemedView';
 
 export default function HomeScreen() {
   return (
+
+
+    // This is the main screen of the app. It is a good place to put a welcome message and instructions.
+    // The ParallaxScrollView component is used to create a parallax effect when scrolling.
+    // The headerBackgroundColor prop is used to set the background color of the header.
+    // The headerImage prop is used to set the image that will be displayed in the header.
+    // The ThemedView and ThemedText components are used to create a consistent look and feel across the app.
+    // The HelloWave component is a simple animated wave that adds a nice touch to the welcome message.
+    // The styles are defined using StyleSheet.create to ensure performance and avoid unnecessary re-renders.
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
       headerImage={
@@ -32,7 +41,7 @@ export default function HomeScreen() {
               web: 'F12',
             })}
 
-            
+
           </ThemedText>{' '}
           to open developer tools.
         </ThemedText>
